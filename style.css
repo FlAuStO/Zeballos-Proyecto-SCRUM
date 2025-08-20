@@ -146,8 +146,10 @@ form button {
 img {
   border-radius: 10px;
   box-shadow: 0 2px 12px 0 #0984e322;
-  max-width: 100%;
+  max-width: 320px; /* Limita el ancho máximo */
+  height: auto;
   margin: 12px 0;
+  display: block;
 }
 
 #tablaComparacion, #resultadoEncuesta {
